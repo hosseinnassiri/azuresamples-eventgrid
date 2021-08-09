@@ -1,4 +1,7 @@
-# Publish / Subscribe pattern using .Net Core and Azure Event Grid
+# Publish / Subscribe pattern using .Net Core and Azure Event Grid Topics
+This is to explain how to implement publish / subscribe pattern using Azure Event Grid Topics
+
+## Azure Event Grid Topics
 Azure Event Grid allows you to build event-driven applications.
 It has [built-in support for events coming from Azure services](https://docs.microsoft.com/en-us/azure/event-grid/overview#event-sources), like storage blobs and resource groups. Event Grid also has support for your own events, using custom topics.
 
