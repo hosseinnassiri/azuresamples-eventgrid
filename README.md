@@ -40,6 +40,10 @@ $eventGridTopicName = "my-eventgrid-topic-01"
 New-AzEventGridTopic -ResourceGroupName $resourceGroup -Name $eventGridTopicName -Location $location
 ```
 
+### Add storage queue as a subscriber of the event grid topic
+For having more visibility when publishing an event to the event grid topic.
+///TODO
+
 ### Configure Azure AD application
 Create a new Azure AD application:
 ``` powershell
