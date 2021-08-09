@@ -1,15 +1,15 @@
-# Azure Event Grid
+# Publish / Subscribe pattern using .Net Core and Azure Event Grid
 Azure Event Grid allows you to build event-driven applications.
 It has [built-in support for events coming from Azure services](https://docs.microsoft.com/en-us/azure/event-grid/overview#event-sources), like storage blobs and resource groups. Event Grid also has support for your own events, using custom topics.
 
 Azure Event Grid uses a pay-per-event pricing model, so you only pay for what you use. The first 100,000 operations per month are free. Operations are defined as event ingress, subscription delivery attempts, management calls, and filtering by subject suffix. 
 
 ## Key concepts
-* Events - What happened.
-* Event sources - Where the event took place.
-* Topics - The endpoint where publishers send events.
-* Event subscriptions - The endpoint or built-in mechanism to route events, sometimes to more than one handler. Subscriptions are also used by handlers to intelligently filter incoming events.
-* Event handlers - The app or service reacting to the event.
+* **Events** - What happened.
+* **Event sources** - Where the event took place.
+* **Topics** - The endpoint where publishers send events.
+* **Event subscriptions** - The endpoint or built-in mechanism to route events, sometimes to more than one handler. Subscriptions are also used by handlers to intelligently filter incoming events.
+* **Event handlers** - The app or service reacting to the event.
 
 ## Security
 https://docs.microsoft.com/en-us/azure/event-grid/security-authentication
