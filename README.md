@@ -106,3 +106,5 @@ Content-Type: application/json
 ```
 
 ### Function App for Event Grid Topic Subscription
+* Deploy function app code
+* Register function app as a subscription of Event Grid Topic
