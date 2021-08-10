@@ -77,8 +77,6 @@ New-AzRoleAssignment -ApplicationId $servicePrincipal.ApplicationId `
 
 Create Client Id & Client Secret for the Azure AD Application.
 
-
-$storageName = "hosseinteststgd01"
 ## Sample asp .net core application 
 ### Publishing events to Event Grid Topic
 Add package references for the following packages:
@@ -107,3 +105,4 @@ Content-Type: application/json
 }
 ```
 
+### Function App for Event Grid Topic Subscription
